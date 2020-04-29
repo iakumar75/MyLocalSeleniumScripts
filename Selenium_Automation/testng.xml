@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Build_2.1">
+  <test name="Build_2.1_Results">
+    <classes>
+      <class name="testNG.AnnotatiosSample2"/>
+      <class name="testNG.FirstProgram"/>
+      <class name="testNG.PrioritySample" />
+      <class name="testNG.SecondProgram"/>
+      <class name="testNG.AnnotationsSample"/>
+    </classes>
+  </test> <!-- TestNGSuite -->
+</suite> <!-- Suite -->
