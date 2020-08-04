@@ -13,7 +13,7 @@ public class GetTextVsGetAttribute {
 
 		System.setProperty("webdriver.chrome.driver", ".\\BrowserDrivers\\chromedriver.exe");
 		driver = new ChromeDriver();
-		Actions act = new Actions(driver);
+//		Actions act = new Actions(driver);
 		driver.get("https://www.google.co.uk/");
 		driver.manage().window().maximize();
 
